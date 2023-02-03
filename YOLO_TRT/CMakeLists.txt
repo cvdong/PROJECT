@@ -10,7 +10,7 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/workspace)
 set(CUDA_GEN_CODE "-gencode=arch=compute_86,code=sm_86")
 
 set(CUDA_DIR     "/usr/local/cuda-11.7")
-set(TENSORRT_DIR "/home/dafeng/Downloads/TensorRT-8.4.1.5")
+set(TENSORRT_DIR "/home/Downloads/TensorRT-8.4.1.5")
 
 find_package(CUDA REQUIRED)
 find_package(OpenCV)

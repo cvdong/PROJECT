@@ -6,7 +6,7 @@ objdir    := objs
 stdcpp    := c++11
 cuda_home := /usr/local/cuda
 opencv_home   := /usr/local
-tensorrt_home := /home/dafeng/Downloads/TensorRT-8.4.1.5
+tensorrt_home := /home/Downloads/TensorRT-8.4.1.5
 cuda_arch := 
 nvcc      := $(cuda_home)/bin/nvcc -ccbin=$(cc)
 MODE = RELEASE
