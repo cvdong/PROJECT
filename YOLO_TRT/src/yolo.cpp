@@ -145,7 +145,7 @@ void Yolo_Det::destroy_context(){
 }
 
 
-void Yolo_Det::pre_process(cv::Mat image){
+void Yolo_Det::pre_process(cv::Mat& image){
 
     // wapaffine
     float scale_x = input_w / (float)image.cols;

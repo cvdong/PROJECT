@@ -92,7 +92,7 @@ private:
 
     void init_context();
     void destroy_context();
-    void pre_process(cv::Mat img);
+    void pre_process(cv::Mat& img);
     void post_process(cv::Mat& img);
 };
 
